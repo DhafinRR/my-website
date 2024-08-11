@@ -82,7 +82,7 @@ nav ul li a.active {
     height: auto;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 0 170px rgba(187, 134, 252, 0.3);
+    box-shadow: 0 0 130px rgba(187, 134, 252, 0.3);
 }
 
 section {
