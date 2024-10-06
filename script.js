@@ -1,6 +1,3 @@
-// Existing code...
-
-// Enhanced fade-in effect for sections
 const sections = document.querySelectorAll('section');
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -21,7 +18,7 @@ sections.forEach(section => {
     observer.observe(section);
 });
 
-// New animation for the hero image
+
 document.addEventListener('DOMContentLoaded', () => {
     const heroImage = document.querySelector('.home-image');
     if (heroImage) {
